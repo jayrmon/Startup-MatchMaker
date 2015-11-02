@@ -1,0 +1,165 @@
+/* Global Overrides aka Dave's recommended hacks */
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+/* Author's custom styles */
+
+
+
+/* Background hint from Dave */
+
+body{
+	background: url(../images/coworking.jpg) no-repeat;
+}
+
+h1 {
+	color: white;
+	font-family: athelas;
+	font-size: 115%%;
+	padding-left: 25px;
+	border: 1px;
+	float: left;
+}
+
+#container {
+	width: 100%;
+}
+
+header {
+	border-style: solid;
+	background-color: black;
+	height: 80px;
+	padding-top: 5px;
+	border-bottom-color: yellow;
+	border-bottom-width: thick;
+	margin: 0;
+}
+
+h2 {
+	text-align: center;
+	background-color: #DAE7EB;
+	font-family: athelas;
+	font-style: italic;
+	font-size: 175%;
+	margin: 0;
+	height: 90px;
+	padding-top: 30px;
+}
+
+header nav ul li {
+  float: right;
+  width: 10%;
+}
+
+header nav a {
+	float: right;
+	display: block;
+	color: white;
+	text-decoration: none;
+	width: 110px;
+}
+
+header nav ul li:nth-of-type(-n+2) {
+  text-transform: uppercase;
+}
+
+#main {
+	float: right;
+	width: 33.33%;
+	height: 370px;
+	border: 1px solid black;
+	padding: 20px 40px 40px 40px;
+	margin-top: 90px;
+	margin-right: 180px;
+	background-color: rgba(255,255,255,0.7);
+}	
+
+#main h4 {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#main p {
+	line-height: 1.5em;
+}
+
+h5 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	border: 1px solid black;
+	padding: 10px 60px 10px 60px;
+	background-color: red;
+	border-radius: 5px;
+}
+
+h3 {
+	font-family: athelas;
+	font-size: 25px;
+}
+
+article {
+	padding: 25px;
+}
+
+article h4 {
+	text-transform: uppercase;
+	text-align: center;
+	border: 1px;
+	padding: 10px 50px 10px 50px;
+	border-radius: 5px;
+	background-color: #DAE7EB;
+	border-bottom: 2px solid #808080;
+	width: 330px;
+}
+
+article p {
+	width: 290px;
+	color: #4D4D4D;
+}
+
+h4 {
+	margin-bottom: 10px;
+}
+
+h6 {
+	float: left;
+	font-size: 17px;
+	padding-left: 40px;
+	border: 1px solid black;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #404040;
+	color: white;
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#boxes{
+  padding: 15px;
+  clear: both;
+}
+
+#boxes > article {
+  height: 250px;
+  width: 32%;
+  float: left;
+  margin-top: 30px;
+  border: 1px #D9D9D9;
+  background: white;
+  padding-bottom: 50px;
+}
+
